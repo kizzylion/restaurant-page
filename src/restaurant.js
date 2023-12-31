@@ -1,10 +1,11 @@
+import restaurantImage from '../img/restaurant-image.jpg'
 export default function createRestaurantHomepage(){
     const contentDiv = document.getElementById('content');
 
     //Create and append image
     const image = document.createElement('img');
-    image.src = '../img/restaurant-image.jpg';
-    image.alt = 'Restaurant Image';
+    image.src = restaurantImage;
+    image.alt = 'img/Restaurant Image';
     image.style.maxWidth = '50%';
     image.style.height = 'auto';
     contentDiv.appendChild(image);
