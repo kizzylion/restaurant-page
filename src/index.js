@@ -1,5 +1,6 @@
 import createRestaurantHomepage from "./restaurant.js";
 import createContactTab from "./contact.js";
+import createMenuTab from "./menu.js";
 
 createRestaurantHomepage();
 
@@ -13,6 +14,11 @@ function clearContent(){
 document.getElementById('home-tab').addEventListener('click', ()=> {
     clearContent();
     createRestaurantHomepage();
+})
+
+document.getElementById('menu-tab').addEventListener('click', ()=> {
+    clearContent();
+    createMenuTab();
 })
 
 document.getElementById('contact-tab').addEventListener('click', ()=> {

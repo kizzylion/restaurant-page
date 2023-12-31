@@ -3,7 +3,7 @@ export default function createRestaurantHomepage(){
 
     //Create and append image
     const image = document.createElement('img');
-    image.src = '/restaurant-image.jpg';
+    image.src = '../img/restaurant-image.jpg';
     image.alt = 'Restaurant Image';
     image.style.maxWidth = '50%';
     image.style.height = 'auto';
